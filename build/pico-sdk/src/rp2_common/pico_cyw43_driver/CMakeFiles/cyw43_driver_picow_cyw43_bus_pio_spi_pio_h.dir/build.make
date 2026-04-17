@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/study_mcu/pico/mcu/01-blink
+CMAKE_SOURCE_DIR = C:/study_mcu/pico/mcu/02-printf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/study_mcu/pico/mcu/01-blink/build
+CMAKE_BINARY_DIR = C:/study_mcu/pico/mcu/02-printf/build
 
 # Utility rule file for cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h: C:/study_mcu/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/study_mcu/pico/mcu/01-blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
-	cd C:/study_mcu/pico/mcu/01-blink/build/pico-sdk/src/rp2_common/pico_cyw43_driver && ../../../../pioasm-install/pioasm/pioasm.exe -o c-sdk -v 0 C:/study_mcu/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio C:/study_mcu/pico/mcu/01-blink/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/study_mcu/pico/mcu/02-printf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
+	cd C:/study_mcu/pico/mcu/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && ../../../../pioasm-install/pioasm/pioasm.exe -o c-sdk -v 0 C:/study_mcu/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio C:/study_mcu/pico/mcu/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/codegen:
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/codegen
@@ -85,10 +85,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bu
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean:
-	cd C:/study_mcu/pico/mcu/01-blink/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
+	cd C:/study_mcu/pico/mcu/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/study_mcu/pico/mcu/01-blink C:/study_mcu/pico/pico-sdk/src/rp2_common/pico_cyw43_driver C:/study_mcu/pico/mcu/01-blink/build C:/study_mcu/pico/mcu/01-blink/build/pico-sdk/src/rp2_common/pico_cyw43_driver C:/study_mcu/pico/mcu/01-blink/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake "--color=$(COLOR)" cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/study_mcu/pico/mcu/02-printf C:/study_mcu/pico/pico-sdk/src/rp2_common/pico_cyw43_driver C:/study_mcu/pico/mcu/02-printf/build C:/study_mcu/pico/mcu/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver C:/study_mcu/pico/mcu/02-printf/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake "--color=$(COLOR)" cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 

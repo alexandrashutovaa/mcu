@@ -1,4 +1,4 @@
-// Padded and checksummed version of: C:/study_mcu/pico/mcu/01-blink/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: C:/study_mcu/pico/mcu/02-printf/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

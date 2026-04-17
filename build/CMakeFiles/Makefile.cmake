@@ -129,13 +129,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/picotool/picotoolConfigVersion.cmake"
   "C:/Program Files/picotool/picotoolTargets-release.cmake"
   "C:/Program Files/picotool/picotoolTargets.cmake"
-  "C:/study_mcu/pico/mcu/01-blink/CMakeLists.txt"
+  "C:/study_mcu/pico/mcu/02-printf/CMakeLists.txt"
   "CMakeFiles/4.3.1/CMakeASMCompiler.cmake"
   "CMakeFiles/4.3.1/CMakeCCompiler.cmake"
   "CMakeFiles/4.3.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.1/CMakeSystem.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-mkdirs.cmake"
-  "C:/study_mcu/pico/mcu/01-blink/pico_sdk_import.cmake"
+  "C:/study_mcu/pico/mcu/02-printf/pico_sdk_import.cmake"
   "C:/study_mcu/pico/pico-sdk/CMakeLists.txt"
   "C:/study_mcu/pico/pico-sdk/cmake/Platform/PICO.cmake"
   "C:/study_mcu/pico/pico-sdk/cmake/generic_board.cmake"
@@ -390,7 +390,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/01_blink.dir/DependInfo.cmake"
+  "CMakeFiles/02_printf.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake"

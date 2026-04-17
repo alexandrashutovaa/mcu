@@ -1,8 +1,8 @@
-# Install script for directory: C:/study_mcu/pico/mcu/01-blink
+# Install script for directory: C:/study_mcu/pico/mcu/02-printf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/01_blink")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/02_printf")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/study_mcu/pico/mcu/01-blink/build/pico-sdk/cmake_install.cmake")
+  include("C:/study_mcu/pico/mcu/02-printf/build/pico-sdk/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/study_mcu/pico/mcu/01-blink/build/install_local_manifest.txt"
+  file(WRITE "C:/study_mcu/pico/mcu/02-printf/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/study_mcu/pico/mcu/01-blink/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/study_mcu/pico/mcu/02-printf/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
